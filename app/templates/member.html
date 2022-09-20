@@ -1,0 +1,17 @@
+{% extends 'base.html' %}
+
+{% block title %}
+Welcome to Library Management System
+{% endblock %}
+
+{% block heading %} 
+<div class="container-lg mt-3 ">
+    <div class="row">
+        <h1 class="display-4 text-center text-light"> <span class="bg-danger px-2">Welcome To Member Dashboard</span> </h1>
+    </div>
+</div>
+ {% endblock %}
+
+ {% block content %}
+ {% include 'login.html' %}
+ {% endblock %}
